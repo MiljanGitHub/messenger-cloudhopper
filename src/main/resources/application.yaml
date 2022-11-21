@@ -1,0 +1,17 @@
+
+server:
+  port: 9000
+
+messenger:
+  async:
+    enabled: true
+  smsc:
+    host: "some ip address"
+    port: 2775
+    systemId: "test"
+    password: "password"
+    sessions: 2
+    window: 2
+    poolSize: 10
+    maxPoolSize: 2147483647
+    queueCapacity: 2147483647
